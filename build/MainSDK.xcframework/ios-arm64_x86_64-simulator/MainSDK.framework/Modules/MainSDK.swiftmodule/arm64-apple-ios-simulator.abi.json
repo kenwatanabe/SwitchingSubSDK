@@ -1,0 +1,135 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MainSDK",
+    "printedName": "MainSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MainSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SubSDKInterface",
+        "printedName": "SubSDKInterface",
+        "declKind": "Import",
+        "moduleName": "MainSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SubSDK_A",
+        "printedName": "SubSDK_A",
+        "declKind": "Import",
+        "moduleName": "MainSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MainSDKManager",
+        "printedName": "MainSDKManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MainSDKManager",
+                "printedName": "MainSDK.MainSDKManager",
+                "usr": "s:7MainSDK0A10SDKManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7MainSDK0A10SDKManagerC6sharedACvpZ",
+            "mangledName": "$s7MainSDK0A10SDKManagerC6sharedACvpZ",
+            "moduleName": "MainSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MainSDKManager",
+                    "printedName": "MainSDK.MainSDKManager",
+                    "usr": "s:7MainSDK0A10SDKManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7MainSDK0A10SDKManagerC6sharedACvgZ",
+                "mangledName": "$s7MainSDK0A10SDKManagerC6sharedACvgZ",
+                "moduleName": "MainSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "processICCardScan",
+            "printedName": "processICCardScan()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7MainSDK0A10SDKManagerC17processICCardScanyyF",
+            "mangledName": "$s7MainSDK0A10SDKManagerC17processICCardScanyyF",
+            "moduleName": "MainSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7MainSDK0A10SDKManagerC",
+        "mangledName": "$s7MainSDK0A10SDKManagerC",
+        "moduleName": "MainSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,6 @@
+framework module MainSDK {
+  umbrella header "MainSDK.h"
+  export *
+
+  module * { export * }
+}

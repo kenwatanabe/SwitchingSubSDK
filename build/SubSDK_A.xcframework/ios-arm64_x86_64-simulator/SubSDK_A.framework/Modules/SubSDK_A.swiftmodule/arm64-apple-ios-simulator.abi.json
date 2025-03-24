@@ -1,0 +1,105 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SubSDK_A",
+    "printedName": "SubSDK_A",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SubSDKInterface",
+        "printedName": "SubSDKInterface",
+        "declKind": "Import",
+        "moduleName": "SubSDK_A"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SubSDK_A",
+        "printedName": "SubSDK_A",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SubSDK_A",
+                "printedName": "SubSDK_A.SubSDK_A",
+                "usr": "s:8SubSDK_AAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8SubSDK_AAACABycfc",
+            "mangledName": "$s8SubSDK_AAACABycfc",
+            "moduleName": "SubSDK_A",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "scanICCard",
+            "printedName": "scanICCard()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8SubSDK_AAAC10scanICCardSSSgyF",
+            "mangledName": "$s8SubSDK_AAAC10scanICCardSSSgyF",
+            "moduleName": "SubSDK_A",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8SubSDK_AAAC",
+        "mangledName": "$s8SubSDK_AAAC",
+        "moduleName": "SubSDK_A",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SubSDKProtocol",
+            "printedName": "SubSDKProtocol",
+            "usr": "s:15SubSDKInterface0A11SDKProtocolP",
+            "mangledName": "$s15SubSDKInterface0A11SDKProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,72 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SubSDKInterface",
+    "printedName": "SubSDKInterface",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "SubSDKProtocol",
+        "printedName": "SubSDKProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "scanICCard",
+            "printedName": "scanICCard()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15SubSDKInterface0A11SDKProtocolP10scanICCardSSSgyF",
+            "mangledName": "$s15SubSDKInterface0A11SDKProtocolP10scanICCardSSSgyF",
+            "moduleName": "SubSDKInterface",
+            "genericSig": "<τ_0_0 where τ_0_0 : SubSDKInterface.SubSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : SubSDKInterface.SubSDKProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15SubSDKInterface0A11SDKProtocolP",
+        "mangledName": "$s15SubSDKInterface0A11SDKProtocolP",
+        "moduleName": "SubSDKInterface",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,6 @@
+framework module SubSDK_A {
+  umbrella header "SubSDK_A.h"
+  export *
+
+  module * { export * }
+}

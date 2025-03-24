@@ -1,0 +1,6 @@
+framework module SubSDKInterface {
+  umbrella header "SubSDKInterface.h"
+  export *
+
+  module * { export * }
+}
