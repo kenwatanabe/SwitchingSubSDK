@@ -10,6 +10,13 @@ SampleApp/
 ├── MainSDK.xcframework
 ├── SubSDK_A.xcframework
 └── SubSDKInterface.xcframework
+
+MainSDK/
+├── SubSDK_A.xcframework
+└── SubSDKInterface.xcframework
+
+SubSDK_A/
+└── SubSDKInterface.xcframework
 ```
 
 #### SubSDK_Bを使う場合
@@ -19,6 +26,13 @@ SampleApp/
 SampleApp/
 ├── MainSDK.xcframework
 ├── SubSDK_B.xcframework
+└── SubSDKInterface.xcframework
+
+MainSDK/
+├── SubSDK_B.xcframework
+└── SubSDKInterface.xcframework
+
+SubSDK_B/
 └── SubSDKInterface.xcframework
 ```
 
