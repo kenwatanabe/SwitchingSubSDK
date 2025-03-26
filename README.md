@@ -4,6 +4,7 @@
 
 #### SubSDK_Aを使う場合
 `MainSDK`の`Other Swift Flags`に`-D SUBSDK_A`を設定  
+`MainSDK`のxcframeworkを作成
 `SampleApp`に以下の`xcframework`をインポート
 ```
 SampleApp/
@@ -21,6 +22,7 @@ SubSDK_A/
 
 #### SubSDK_Bを使う場合
 `MainSDK`の`Other Swift Flags`に`-D SUBSDK_B`を設定  
+`MainSDK`のxcframeworkを作成
 `SampleApp`に以下の`xcframework`をインポート
 ```
 SampleApp/
