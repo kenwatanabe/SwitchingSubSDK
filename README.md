@@ -1,6 +1,8 @@
 ### 複数のサブSDKを切り替えるサンプル
-`MainSDK`の中で`SubSDK_A`のインポートと`SubSDK_B`のインポートを切り替えて使う  
-今は手動で切り替えだがターゲットで設定しておいても良さそう
+`MainSDK`の中で`SubSDK_A`と`SubSDK_B`のインポートや処理を、プリプロセッサー定数をみて切り替えを行う。  
+プリプロセッサー定数は手動で書き換えているが、スキームごとに以下のように設定してスキーム切り替えでも良いかも  
+`ABuildScheme`=>`SUBSDK_A`を設定  
+`BBuildScheme`=>`SUBSDK_B`を設定
 
 #### SubSDK_Aを使う場合
 `MainSDK`の`Other Swift Flags`に`-D SUBSDK_A`を設定  
